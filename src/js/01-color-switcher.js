@@ -14,6 +14,7 @@ const bgChangeInterval = function () {
 const bgClearInterval = function () {
   btnStartEl.disabled = false;
   clearInterval(intervalId);
+  bodyEl.style.background = '';
 };
 
 btnStartEl.addEventListener('click', bgChangeInterval);
@@ -24,4 +25,3 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-

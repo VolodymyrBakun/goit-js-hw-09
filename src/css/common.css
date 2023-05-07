@@ -16,3 +16,15 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.field {
+  display: inline;
+}
+
+.value {
+  color: red;
+}
+
+.label {
+  color: darkred;
+}
