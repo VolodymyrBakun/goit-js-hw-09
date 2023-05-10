@@ -14,7 +14,6 @@ const bgChangeInterval = function () {
 const bgClearInterval = function () {
   btnStartEl.disabled = false;
   clearInterval(intervalId);
-  bodyEl.style.background = "#FFFFFF";
 };
 
 btnStartEl.addEventListener('click', bgChangeInterval);
